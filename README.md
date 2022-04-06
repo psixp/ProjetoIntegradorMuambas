@@ -97,6 +97,30 @@ $ git checkout <nome da branch>
 #
 
 ```
+### ✅ Usando o git no projeto (TIME)
+
+<p>Para validarmos o conteudo e testar antes vamos utilizar a branch 'beta', assim não comprometemos a branch main. <br>
+Segue padrão de uso.
+ </p>
+
+```bash
+# Usando
+$git checkout <beta>
+
+#realizar alterações no projeto...
+
+#Realizar add
+$git add "pastas upadas"
+
+# Realizar commit
+$git commit -m "alterações aqui"
+
+# Realizar push no beta
+$git push origin beta
+
+# Aguardar aprovação...
+```
+
 
 ### 🛠 Tecnologias
 
