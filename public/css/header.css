@@ -81,10 +81,7 @@ header {
     height: 35px;
     border-radius: 15px;
     border: none;
-<<<<<<< HEAD
-=======
     padding: 0 15px;
->>>>>>> baa1d9aa2a15546d4318503d8c81b28975af24d1
 }
 
 /* .search ::placeholder {
@@ -106,8 +103,8 @@ header {
     font-size: 25px;
     position: relative;
     color: #1A495A;
-    left: 0px;
-    top: 3.5px;
+    left: -35px;
+    top: 4px;
 }
 
 nav {
