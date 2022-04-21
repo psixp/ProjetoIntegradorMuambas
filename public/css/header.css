@@ -107,6 +107,8 @@ nav a {
 .search input {
     width: 500px;
     height: 35px;
+    border-radius: 15px;
+    border: none;
 }
 
 .search ::placeholder {
