@@ -109,20 +109,29 @@ nav a {
     height: 35px;
     border-radius: 15px;
     border: none;
+    padding: 0 15px;
 }
 
-.search ::placeholder {
+/* .search ::placeholder {
     padding-left: 10px;
+} */
+
+
+.search button {
+    background-color: #FFFFFF;
+    border: none;
+    position: relative;
+    left: -40px;
+    top: 3px;
 }
 
-.search a {
-    color: #000000;
-}
+
 
 .search i{
     font-size: 25px;
     position: relative;
-    left: -40px;
-    top: 5px;
+    color: #000000;
+    left: 0px;
+    top: 3.5px;
 }
 
