@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap');
+
+:root {
+    font-size: 62.5%; /* sempre 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: auto;
+}
+
+.produto h1 {
+    font-size: 40px;
+    margin-top: 45px;
+    text-align: justify;
+}
+
+.div-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+
+.galeria-prod {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.galeria-agrupada {
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-prod img {
+    width: 180px;
+    height: auto;
+}
+
+.galeria-prod .img-destaque {
+    width: 400px;
+    height: 400px;
+}
