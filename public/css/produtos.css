@@ -14,20 +14,21 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 20px;
     height: auto;
 }
 
 .produto h1 {
     font-size: 40px;
     margin-top: 45px;
+    margin-left: 120px;
     text-align: justify;
 }
 
 .div-topo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 450px;
 }
 
@@ -35,6 +36,11 @@ main {
     display: flex;
     flex-direction: row;
     gap: 60px;
+
+    border: 1px solid #DDDDDD;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding-left: 20px;
 }
 
 .galeria-agrupada {
@@ -54,6 +60,34 @@ main {
 
 .produto-main {
    font-size: 2.2rem;
+   width: 550px;
+   font-weight: 300;
+   color: #3f3f3f;
+   border: 1px solid #DDDDDD;
+   padding: 10px;
+}
+
+.produto-main h3 {
+    font-weight: 400;
+}
+
+.produto-main p {
+    font-size: 2.0rem;
+}
+
+.produto-main i {
+    color: #efe822;
+}
+
+.produto-main span {
+    font-weight: 700;
+}
+
+.inf-compra {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #DDDDDD;
+    margin-right: 80px;
 }
 
 
@@ -78,20 +112,20 @@ main {
 .produtos-relacionados div img {
     width: 200px;
     height: 200px;
-    background-color: rgba(48, 80, 80, 0.4);
+    background-color: rgbA(221, 221, 221, 0.6);
     border-radius: 50%;
     padding: 40px;
 }
 
 .avaliacoes {
-    width: 100%;
+    width: 80%;
     padding: 100px;
     margin: 45px auto 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #305050;
+    border: 1px solid #DDDDDD;
 
     font-size: 2.2rem;
 }
@@ -100,56 +134,32 @@ main {
     margin-top: 20px;
 }
 
+.div-users p {
+    font-weight: 300;
+    color: #3f3f3f;
+    font-size: 2.0rem;
+}
+
+.div-users i {
+    color: #efe822;
+}
+
 
 .detalhes-tecnicos {
-    width: 100%;
+    width: 80%;
     padding: 100px;
     margin: 45px auto 0px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    border: 1px solid #305050;
+    border: 1px solid #DDDDDD;
 
     font-size: 2.2rem;
 }
 
 .detalhes-tecnicos ul li{
     list-style: none;
-}
-.categorias{
-    margin-top: 20px;
-    display: flex;
-    flex-flow: row wrap;
-}
-main h1 {
-    font-size: 40px;
-}
-
-.card{
-    margin: 20px;
-    border: 1px solid #ddd;
-    padding: 18px;
-}
-.card-title p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.card-price {
-    color: #0F1111;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
-
-}
-.card-price s {
-    color: #565959;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-}
-.card-conditions p{
-    font-family: Arial, Helvetica, sans-serif;
-
-    color: #565959;
-
+    font-weight: 300;
+    color: #3f3f3f;
 }
