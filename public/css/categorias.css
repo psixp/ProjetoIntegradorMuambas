@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap');
+
+:root {
+    font-size: 62.5%; /* sempre 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+main h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+    font-size: 40px;
+}
+
+.card{
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 18px;
+}
+.card-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.card-price {
+    color: #0F1111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+
+}
+.card-price s {
+    color: #565959;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.card-conditions p{
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #565959;
+
+}
+
+.categorias{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}

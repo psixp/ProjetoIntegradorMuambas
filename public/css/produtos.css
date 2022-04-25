@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap');
+
+:root {
+    font-size: 62.5%; /* sempre 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+}
+
+.produto h1 {
+    font-size: 40px;
+    margin-top: 45px;
+    margin-left: 120px;
+    text-align: justify;
+}
+
+.div-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.galeria-prod {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    border: 1px solid #DDDDDD;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.galeria-agrupada {
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-prod img {
+    width: 180px;
+    height: auto;
+}
+
+.galeria-prod .img-destaque {
+    width: 400px;
+    height: 400px;
+}
+
+.produto-main {
+   font-size: 2.2rem;
+   width: 550px;
+   font-weight: 300;
+   color: #3f3f3f;
+   border: 1px solid #DDDDDD;
+   padding: 10px;
+}
+
+.produto-main h3 {
+    font-weight: 400;
+}
+
+.produto-main p {
+    font-size: 2.0rem;
+}
+
+.produto-main i {
+    color: #efe822;
+}
+
+.produto-main span {
+    font-weight: 700;
+}
+
+.inf-compra {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #DDDDDD;
+    margin-right: 80px;
+}
+
+
+.produtos-relacionados {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 2.2rem;
+}
+
+.relacionados-img {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.produtos-relacionados div img {
+    width: 200px;
+    height: 200px;
+    background-color: rgbA(221, 221, 221, 0.6);
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.avaliacoes {
+    width: 80%;
+    padding: 100px;
+    margin: 45px auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #DDDDDD;
+
+    font-size: 2.2rem;
+}
+
+.div-users {
+    margin-top: 20px;
+}
+
+.div-users p {
+    font-weight: 300;
+    color: #3f3f3f;
+    font-size: 2.0rem;
+}
+
+.div-users i {
+    color: #efe822;
+}
+
+
+.detalhes-tecnicos {
+    width: 80%;
+    padding: 100px;
+    margin: 45px auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #DDDDDD;
+
+    font-size: 2.2rem;
+}
+
+.detalhes-tecnicos ul li{
+    list-style: none;
+    font-weight: 300;
+    color: #3f3f3f;
+}
