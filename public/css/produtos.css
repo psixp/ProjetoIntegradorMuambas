@@ -117,3 +117,49 @@ main {
 .detalhes-tecnicos ul li{
     list-style: none;
 }
+
+.inf-compra{
+    font-size: 1.0rem;
+    display: block;
+    margin:75px;
+    border: 1px solid #305050;
+    padding: 20px;
+        
+    
+    
+}
+
+.btcompra{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-style: strong;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+        
+}
+
+.btcompra:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btadicionar{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    font-style: strong;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.btadicionar:hover{
+    background-color: #008CBA;
+    color: white;
+}
