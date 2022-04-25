@@ -35,7 +35,8 @@ header {
 
 .search {
     margin-left: 75px;
-    
+    display: flex;
+    align-items: center;    
 }
 
 .cart {
@@ -46,7 +47,6 @@ header {
 }
 .cart i{
     color: #1A495A;
-
     font-size: 3.0em;
     margin-top: 10px;   
 }
@@ -73,7 +73,6 @@ header {
     font-size: 24px;
     font-family: 'Teko', sans-serif;
     font-weight: 700;
-
 }
 
 .search input {
@@ -135,4 +134,3 @@ nav li {
 nav a {
     text-decoration: none;
 }
-
